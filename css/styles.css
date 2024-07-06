@@ -293,7 +293,6 @@ p,h1,h2,h3,h4,h5,h6 {
 .portfolio-box {
 flex-basis: calc((100% - 24 * 2) / 3) ;
 }
-
 .portfolio-images {
     background: url("path_to_image");
     max-width: 100%;
@@ -301,11 +300,11 @@ flex-basis: calc((100% - 24 * 2) / 3) ;
     display: block;
 }
 
-.conteiner-portfolio{
+/*.conteiner-portfolio{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-
+*/
 .portfolio-name {
     font-weight: 500;
     font-size: 20px;
