@@ -193,6 +193,14 @@ p,h1,h2,h3,h4,h5,h6 {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding-right: 15px;
+    padding-left: 15px;}
+
+
 .about-item-header {
     font-weight: 500;
     font-size: 20px;
@@ -218,32 +226,28 @@ p,h1,h2,h3,h4,h5,h6 {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
+
 }
 
 .team {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
     background-color: #F4F4FD;
+
 }
 
-.team-list {
-    display: flex;
-    gap: 24px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 .team-list-about {
     background-color: #FFFFFF;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     width: calc((100% - 72px) / 4);
+
 }
 
 .team-list-images {
     background: url("path_to_image");
     max-width: 100%;
     height: auto;
-    display: block;
+
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -253,15 +257,16 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .team-list-header {
+
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 20px;
+    margin-bottom: 8px;
 }
 
 .team-list-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
