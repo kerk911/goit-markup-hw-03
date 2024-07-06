@@ -175,7 +175,7 @@ p,h1,h2,h3,h4,h5,h6 {
 
 }
 .about-item-box {
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
 }
 .about-section{
     padding-top: 120px;
@@ -235,7 +235,7 @@ p,h1,h2,h3,h4,h5,h6 {
 .team-list-about {
     background-color: #FFFFFF;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
+    background: #fff;
     width: calc((100% - 72px) / 4);
 }
 
@@ -308,7 +308,7 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .portfolio-box {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 96px) / 4);
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
