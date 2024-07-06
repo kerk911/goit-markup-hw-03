@@ -285,13 +285,18 @@ p,h1,h2,h3,h4,h5,h6 {
 
 .portfolio-list {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 15px; 
 }
 
 .portfolio-box {
-flex-basis: calc((100% - 24 * 2) / 3) ;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    flex-basis: calc((100% - 24 * 2) / 3) ;
 }
 .portfolio-images {
     background: url("path_to_image");
