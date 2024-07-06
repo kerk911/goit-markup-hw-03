@@ -146,12 +146,21 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 .main-button {
     display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0,04em;
+    width: 169px;
+    min-height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
     border-radius: 4px;
     background: #4d5ae5;
     border: none; 
     cursor: pointer;
-    color:#fff
+    color:#fff;
+    display: block;
+    margin: auto;
+}
 }
 
 .main-button:hover,
