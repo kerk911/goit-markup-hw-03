@@ -22,12 +22,12 @@ p,h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0;
 }
 
-container {
+.container {
     display: block;
     max-width:1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;       
+    margin: 0 auto;      
     }
 
 .header {
