@@ -242,7 +242,6 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .team-list-images {
-    background: url("path_to_image");
     max-width: 100%;
     height: auto;
 
@@ -331,7 +330,6 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .portfolio-images {
-    background: url("path_to_image");
     max-width: 100%;
     height: auto;
     border-radius: 0px 0px 4px 4px;
@@ -363,9 +361,9 @@ p,h1,h2,h3,h4,h5,h6 {
  
 .footer-logo {
     font-family: Raleway, sans-serif;
+    display: inline-block;
     font-weight: 700;
     font-size: 18px;
-    display: inline-block;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -386,6 +384,5 @@ p,h1,h2,h3,h4,h5,h6 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
-
+    color: #f4f4fd;git 
 }
