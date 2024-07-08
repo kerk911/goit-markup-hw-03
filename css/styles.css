@@ -35,6 +35,7 @@ p,h1,h2,h3,h4,h5,h6 {
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc
 }
+
 .header-container {
     display: flex;
     align-items: center;
@@ -44,6 +45,7 @@ p,h1,h2,h3,h4,h5,h6 {
     display: flex;
     align-items: center;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -68,7 +70,6 @@ p,h1,h2,h3,h4,h5,h6 {
 .navigation-menu-list {
     margin: 0 auto;
     padding-left: 80;
-
 }
 
 .navigation-list {
@@ -89,7 +90,6 @@ p,h1,h2,h3,h4,h5,h6 {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
-
 }
 
 .header-menu-item-link:hover,
@@ -125,9 +125,7 @@ p,h1,h2,h3,h4,h5,h6 {
 .main-container {
     display: flex;
     flex-direction: column;
-
 }
-
 
 .main-section {
     padding-top: 188px;
@@ -144,6 +142,7 @@ p,h1,h2,h3,h4,h5,h6 {
     margin-bottom: 48px;
     max-width: 496px;
 }
+
 .main-button {
     font-weight: 500;
     line-height: 1.5;
@@ -223,13 +222,11 @@ p,h1,h2,h3,h4,h5,h6 {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
-
 }
 
 .team {
     padding: 120px 0;
     background-color: #F4F4FD;
-
 }
 
 .team-list-about {
@@ -238,7 +235,6 @@ p,h1,h2,h3,h4,h5,h6 {
     background: #fff;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
-
 }
 
 .team-list-images {
@@ -249,14 +245,12 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .team-border {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
-
 }
 
 .team-list-header {
@@ -266,7 +260,6 @@ p,h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 20px;
-    margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -320,7 +313,6 @@ p,h1,h2,h3,h4,h5,h6 {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-
 }
 
 .container-portfolio {
@@ -342,7 +334,6 @@ p,h1,h2,h3,h4,h5,h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center; 
     margin-bottom: 8px
 }
 
@@ -351,7 +342,6 @@ p,h1,h2,h3,h4,h5,h6 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .footer {
@@ -379,7 +369,6 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .footer-text {
-    margin-top: 16px;
     max-width: 264px;
     font-weight: 400;
     font-size: 16px;
